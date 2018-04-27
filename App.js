@@ -165,21 +165,21 @@ export default class App extends React.Component {
             <Card>
               <CardItem style={{ marginLeft: 8, marginTop: 0 }}>
                 <Text style={{ fontSize: 14 }}>Name</Text>
-                <View style={{ flexDirection: 'row', position: 'absolute', left: 15 }} >
+                <View style={{ flexDirection: 'row', position: 'absolute', right: 15 }} >
                   <Text style={{ fontSize: 14 }}>Ricky Ponting</Text>
                 </View>
               </CardItem>
 
               <CardItem style={{ marginLeft: 8, marginTop: -10 }}>
                 <Text style={{ fontSize: 14 }}>Contact</Text>
-                <View style={{ flexDirection: 'row', position: 'absolute', left: 15 }} >
+                <View style={{ flexDirection: 'row', position: 'absolute', right: 15 }} >
                   <Text style={{ fontSize: 14 }}>03330303000</Text>
                 </View>
               </CardItem>
 
               <CardItem style={{ marginLeft: 8, marginTop: -10 }}>
                 <Text style={{ fontSize: 14 }}>Address</Text>
-                <View style={{ flexDirection: 'row', position: 'absolute', left: 15 }} >
+                <View style={{ flexDirection: 'row', position: 'absolute', right: 15 }} >
                 <Button small transparent ><Icon style={{ color: 'green' }} name='md-add' /></Button>
                   <Picker
                     mode="dropdown"
